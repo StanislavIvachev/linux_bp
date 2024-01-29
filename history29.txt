@@ -1,0 +1,79 @@
+   0 pwd
+   1 whoami
+   2 ls
+   3 ls-- help
+   4 ls -- help
+   5 ls--help
+   6 clear
+   7 ls -a
+   8 ls -l
+   9 ls -la
+  10 cd
+  11 cd..
+  12 cd ..
+  13 pwd
+  14 ls -l
+  15 home
+  16 /home
+  17 cd home
+  18 mkdir user1
+  19 ls user1
+  20 ls
+  21 cd user1/
+  22 cd user1
+  23 ls
+  24 cd home
+  25 ls
+  26 history
+  27 ls
+  28 cd /home
+  29 ls
+  30 cd user1/
+  31 mkdir task1
+  32 ls
+  33 cd task1/
+  34 touch file1.txt
+  35 ls
+  36 cd ..
+  37 mkdir user2
+  38 ls
+  39 tree
+  40 cd user2
+  41 ls
+  42 mkdir task2
+  43 ls
+  44 cd task2/
+  45 touch file2.txt
+  46 ls
+  47 cd /home
+  48 tree
+  49 history
+  50 cd /opt
+  51 mkdir /home/user3
+  52 mkdir /home/user3/task3
+  53 touch /home/user3/task3/file3.txt
+  54 tree /home
+  55 mkdir /home/user4/task4
+  56 mkdir --help
+  57 mkdir -p /home/user4/task4
+  58 touch /home/user4/task4/file4.txt
+  59 tree /home
+  60 rm --help
+  61 tree /home
+  62 mkdir -p /home/user5/task5
+  63 touch /home/user5/task5/file5.txt
+  64 tree /home
+  65 rm --help
+  66 mkdir -p /home/user6/task6 && touch /home/user6/task6/file6.txt
+  67 tree /home
+  68 mkdir -p /tmp/123 /home/456 /test /etc/new/telran
+  69 cp /home/user1/task1/file1.txt  /tmp/
+  70 cp /home/user2 /tmp/newuser2
+  71 cp --help
+  72 cp -r /home/user2 /tmp/newuser2
+  73 mv /home/user3/task3/file3.txt /home/user3/task3/newfile3.txt
+  74 mv /home/user4 /tmp
+  75 history
+  76 mv --help
+  77 history
+  78 history > history29.txt
